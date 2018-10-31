@@ -4,71 +4,83 @@
 <head>
     <meta charset="UTF-8">
     <title>Магазин строительных материалов и инструментов для ремонта</title>
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="main-header">
-        <a class="main-header-logo" href="#">Техномарт</a>
-        <div class="main-header-serch">Поиск</div>
-        <a class="main-header-bookmarks" href="">Закладки</a>
-        <a class="main-header-cart" href="">Корзина</a>
-        <a class="main-header-make-order" href="">Оформить заказ</a>
-        <h1 class="main-header-title">
-            Интернет-магазин<br>
-            строительных материалов<br>
-            и инструментов для ремонта<br>
-        </h1>
-        <div class="main-header-contacts">
-            <div class="phone">+7 (812) 555-05-55</div>
-            <p class="main-header-address">
-                г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-            </p>
+        <div class="main-header-top-wrapper">
+            <div class="container">
+                <a class="main-header-logo button-red" href="#">Техномарт</a>
+                <div class="main-header-serch">Поиск</div>
+                <a class="main-header-bookmarks" href="">Закладки</a>
+                <a class="main-header-cart" href="">Корзина</a>
+                <a class="main-header-make-order" href="">Оформить заказ</a>
+            </div>
         </div>
-        <div class="main-header-action">
-            <a class="login" href="#">Войти</a>
-            <a class="register" href="#">Регистрация</a>
+        <div class="container">
+            <div class="main-header-middle-wrapper">
+                <h1 class="main-header-title">
+                    Интернет-магазин<br>
+                    строительных материалов<br>
+                    и инструментов для ремонта<br>
+                </h1>
+                <div class="main-header-contacts">
+                    <div class="phone">+7 (812) 555-05-55</div>
+                    <p class="main-header-address">
+                        г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+                    </p>
+                </div>
+                <div class="main-header-action">
+                    <a class="login" href="#">Войти</a>
+                    <a class="register" href="#">Регистрация</a>
+                </div>
+            </div>
+            <nav>
+                <ul class="site-navigation">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Компания</a></li>
+                    <li><a href="#">Каталог</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Спецпредложения</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul class="site-navigation">
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">Компания</a></li>
-                <li><a href="#">Каталог</a></li>
-                <li><a href="#">Новости</a></li>
-                <li><a href="#">Спецпредложения</a></li>
-                <li><a href="#">Доставка</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
-        </nav>
     </header>
     <section class="company-activity">
         <div class="direction-activity">
-            <h3>Материалы</h3>
+            <h3 class="direction-activity-title">Материалы</h3>
             <a href="#">На любой вкус</a>
         </div>
         <div class="direction-activity">
-            <h3>Инструмент</h3>
+            <h3 class="direction-activity-title">Инструмент</h3>
             <a href="#">На все случаи</a>
         </div>
         <div class="direction-activity">
-            <h3>Техника</h3>
+            <h3 class="direction-activity-title">Техника</h3>
             <a href="#">для стройки</a>
         </div>
         <div class="production_slider">
             <h4>Дрели</h4>
         </div>
         <div class="direction-activity">
-            <h3>Скидки 50%</h3>
+            <h3 class="direction-activity-title">Скидки 50%</h3>
             <a href="#">на 350 товаров</a>
         </div>
         <div class="direction-activity">
-            <h3>Доставка</h3>
+            <h3 class="direction-activity-title">Доставка</h3>
             <a href="#">Бесплатно</a>
         </div>
     </section>
 
     <section class="popular-products">
-        <h2>Популярные товары</h2>
-        <a class="popular-products-all" href="#">Все популярные товары</a>
+        <h2 class="popular-title">Популярные товары</h2>
+        <a class="popular-products-all button-red" href="#">Все популярные товары</a>
         <ul class="popular-products-list">
             <li class="popualar-catalog-item">
                 <h5>
@@ -80,7 +92,7 @@
                 </p>
                 <p class="popular-item-price">
                     <span class="old-price">32500 Р.</span>
-                    <span class="</ul>new-price">25500 Р.</span>
+                    <span class="new-price">25500 Р.</span>
                 </p>
             </li>
             <li class="popualar-catalog-item">
@@ -94,7 +106,7 @@ BFG 3000">
                 </p>
                 <p class="popular-item-price">
                     <span class="old-price">22500 Р.</span>
-                    <span class="</ul>new-price">15500 Р.</span>
+                    <span class="new-price">15500 Р.</span>
                 </p>
             </li>
             <li class="popualar-catalog-item">
@@ -108,7 +120,7 @@ BFG 6000">
                 </p>
                 <p class="popular-item-price">
                     <span class="old-price">30500 Р.</span>
-                    <span class="</ul>new-price">25500 Р.</span>
+                    <span class="new-price">25500 Р.</span>
                 </p>
             </li>
             <li class="popualar-catalog-item">
@@ -120,7 +132,7 @@ BFG 6000">
                     <img src="img/perforator-4.jpg" width="218" height="135" alt="Перфоратор BOSCH BFG 9000">
                 </p>
                 <p class="popular-item-price">
-                    <span class="</ul>new-price">12500 Р.</span>
+                    <span class="new-price">12500 Р.</span>
                 </p>
             </li>
         </ul>
@@ -159,8 +171,8 @@ BFG 6000">
     </section>
 
     <section class="popular-manufacturers">
-        <h2>Популярные производители</h2>
-        <a class="popular-manufactures-all" href="#">Все произоводители</a>
+        <h2 class="popular-title">Популярные производители</h2>
+        <a class="popular-manufactures-all button-red" href="#">Все произоводители</a>
         <div class="manufacturer-brand"></div>
         <div class="manufacturer-brand"></div>
         <div class="manufacturer-brand"></div>
@@ -173,43 +185,40 @@ BFG 6000">
 
     <section class="services">
         <h2>Сервисы</h2>
-        <p class="services-description">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+        <p class="services-description">Хороший интернет-магазин отличается от плохого не только ценами! <br> Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
         <ul class="services-list">
             <li>Доставка</li>
             <li>Гарантия</li>
             <li>Кредит</li>
         </ul>
-        <h2>Доставка</h2>
-        <p class="delivery-description">Мы с удовольствием доставим ваш товар прямо
-            к вашему подъезду совершенно бесплатно!Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
+        <span>Доставка</span>
+        <p class="delivery-description">Мы с удовольствием доставим ваш товар прямо <br> к вашему подъезду совершенно бесплатно! <br> Ведь мы неплохо заработаем, <br> поднимая его на ваш этаж!</p>
     </section>
 
     <section class="company">
-        <h2 class="visually-hidden">Краткая информация о компании</h2>
-        <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
+        <h2 class="company-tytle">Компания «Техномарт»</h2>
+        <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и <br> строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
 
-        <p>Мы можем доставить ваш товар в самые отдаленные точки России!
+        <p>Мы можем доставить ваш товар в самые отдаленные точки России! <br>
             Техномарт работает со многими транспортными компаниями:</p>
         <ul class="clients-list">
             <li>Деловые линии</li>
             <li>Автотрейдинг</li>
             <li>ЖелДорЭкспедиция</li>
         </ul>
-        <a href="#" class="more-about-company">Подробнее о компании</a>
+        <a href="#" class="more-about-company button-red">Подробнее о компании</a>
     </section>
 
     <section class="contacts">
-        <h2 class="visually-hidden">Контакты</h2>
+        <h2 class="contacts-title">Контакты</h2>
         <p>Вы можете забрать товар сами,<br>
-            заехав в наш офис:</p>
-        <!--здесь будет карта-->
-        <button class="write-us">Напишите нам</button>
+            <button class="write-us button-red">Заблудились? Напишите нам!</button>
     </section>
 
     <footer class="main-footer">
         <div class="main-footer-navigation">
-            <a class="main-footer-logo" href="#">Техномарт</a>
-            <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+            <a class="main-footer-logo button-red" href="#">Техномарт</a>
+            <p class="main-footer-contacts">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
                 +7 (812) 555-05-55</p>
             <ul class="main-footer-menu">
                 <li><a href="#"></a>Компания</li>
@@ -233,12 +242,11 @@ BFG 6000">
                 <li><a class="social-button" href="#">Фейсбук</a></li>
                 <li><a class="social-button" href="#">Инстаграмм</a></li>
             </ul>
-            <b>Обратная связь:</b>
+            <span>Обратная связь:</span>
             <span>info@technomart.ru</span>
-            <b>Разработано</b>
+            <span>Разработано</span>
             <span>yandex.ru</span>
         </div>
-
     </footer>
 </body>
 

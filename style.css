@@ -1,0 +1,309 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Cuprum", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-header {
+    background-color: #f3f7f9;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.main-header-top-wrapper {
+    background-color: #293449;
+}
+
+.main-header-top-wrapper .container {
+    display: flex;
+    align-items: center;
+}
+
+.main-header-make-order {
+    background-color: #63a63e;
+    padding: 12px 21px;
+}
+
+.main-header-bookmarks, 
+.main-header-cart,
+.main-header-serch,
+.main-header-make-order {
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 18px;
+}
+
+.main-header-serch {
+    margin-left: 49px;
+}
+
+.main-header-bookmarks {
+    margin-left: auto;
+    margin-right: 91px;
+}
+
+.main-header-cart {
+    margin-right: 44px;
+}
+
+.main-header-title {
+    font-size: 16px;
+    line-height: 23px;
+    color: #ee3643;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header-middle-wrapper {
+    display: flex;
+}
+
+.login,
+.register {
+    color: #000000;
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.main-header-logo {
+    padding: 55px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.main-header-contacts {
+    color: #ee3643;
+    font-family: Cuprum;
+    font-size: 21px;
+    line-height: 21px;
+}
+
+.main-header-address {
+    color: #32425c;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.site-navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-navigation li {
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 17px;
+}
+
+.site-navigation a {
+    color: #ffffff;
+}
+
+.direction-activity-title {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.direction-activity a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.popular-title {
+    color: #32425c;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+
+.popular-title + a {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+h5 a:link,
+h5 a:visited {
+    color: #000000;
+}
+
+.popualar-catalog-item h5 {
+    color: #000000;
+    font-family: "PT Sans";
+    "Arial";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.old-price {
+    color: #a9a9a9;
+    font-family: "PT Sans";
+    "Arial";
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 18px;
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+
+.new-price {
+    color: #ffffff;
+    font-family: "PT Sans";
+    "Arial";
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.services {
+    background-color: #f4f8f9;
+}
+
+.services > h2,
+.company > h2,
+.contacts > h2 {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.services > p,
+.company > p,
+.contacts > p {
+    font-family: "PT Sans";
+    "Arial";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+}
+
+.services > span {
+    color: #32425c;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.company > ul > li {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000000;
+}
+
+.company > a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.write-us {
+    border: none;
+}
+
+.button-red {
+    background-color: #ee3643;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.button-red:hover {
+    background-color: #ca2c37;
+}
+
+.button-red:active {
+    background-color: #ba2732;
+}
+
+.main-footer {
+    background-color: #32425c;
+}
+
+.main-footer-copyright {
+    background-color: #293449;
+}
+
+.main-footer-logo {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.main-footer-menu {
+    color: #f3f7f9;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main-footer-catalog-list {
+    color: #ffd180;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main-footer-contacts {
+    color: #f3f7f9;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.main-footer-copyright {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.main-footer-copyright span:nth-of-type(1),
+.main-footer-copyright span:nth-of-type(3) {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.main-footer-copyright span:nth-of-type(2),
+.main-footer-copyright span:nth-of-type(4) {
+    color: #ffd180;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
